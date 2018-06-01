@@ -1,0 +1,19 @@
+{
+  "text": "",
+  "username": "HackerOne",
+  "bot_id": "BAPKCAM6C",
+  "attachments": [
+    {
+      "fallback": "Report triaged: #360786 - This is a test report",
+      "pretext": "<https://hackerone.com/nodejs-ecosystem|Node.js third-party modules>: <https://hackerone.com/vdeturckheim|vdeturckheim> triaged <https://hackerone.com/reports/360786|This is a test report>.",
+      "id": 1,
+      "color": "e67e22"
+    }
+  ],
+  "type": "message",
+  "subtype": "bot_message",
+  "team": "T9JS839FU",
+  "channel": "GARBVHM55",
+  "event_ts": "1527858756.000459",
+  "ts": "1527858756.000459"
+}

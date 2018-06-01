@@ -1,0 +1,20 @@
+{"text":"",
+  "username":"HackerOne",
+  "bot_id":"BAPKCAM6C",
+  "attachments":
+  [
+    {
+      "fallback":"New HackerOne report: #360786 - This is a test report.",
+      "text":"&gt; NOTE! Thanks for submitting a report! Please replace *all* the [square] sections below with the pertinent details. Remember, the more detail you provide, the easier it is for us to triage and respond quickly, so be sure to take your time filling out the report!\n\nI would like to report [VULNERABILITY] in [MODULE]\nIt allows [DESCRIBE THE IMPACT OF THE VULNERABILITY - E.G READ ARBITRARY FILES, READ DATA FROM DATABASE ETC]\n\n# Module\n\n**module name:** [MODULE NAME]\n**version:** [MODULE VERSION]\n**npm page:** `<hxxps://www.npmjs.com/package/>[MODULE NAME]`\n\n## Module Description\n\n&gt; Copy description from npm page\n\n## Module Stats\n\n&gt; Replace stats below with numbers from npm’s module page:\n\n[1] downloads in the last day\n[10] downloads in the last week\n[100] downloads in the last month\n\n# Vulnerability\n\n## Vulnerability Description\n\n&gt; Description about how the vulnerability was found and how it can be exploited, how it harms package users (data modification/lost, system access, other.\n\n## Steps To Reproduce:\n\n&gt; Detailed steps to reproduce with all required references/steps/commands. If there is any exploit code or reference to the package source code this is the place where it should be put.\n\n## Patch\n\n&gt; If you're able to provide a patch with the fix please post it in this section\n\n## Supporting Material/References:\n\n&gt; State all technical information about the stack where the vulnerability was found\n\n- [OPERATING SYSTEM VERSION]\n- [NODEJS VERSION]\n- [NPM VERSION]\n- [BROWSERS VERSIONS, IF APPLICABLE] \n- [OTHER SOFTWARE USED TO EXPLOIT VULNERABILITY AND THEIR VERSIONS, IF APPLICABLE]\n\n# Wrap up\n\n&gt; Select Y or N for the following statements:\n\n- I contacted the maintainer to let them know: [Y/N] \n- I opened an issue in the related repository: [Y/N] \n\n&gt; Hunter's comments and funny memes goes here\n\n## Impact\n\nNone",
+      "pretext":"<https://hackerone.com/nodejs-ecosystem|Node.js third-party modules>: <https://hackerone.com/vdeturckheim|vdeturckheim> reported <https://hackerone.com/reports/360786|This is a test report>.",
+      "id":1,
+      "color":"8e44ad"
+    }
+  ],
+  "type":"message",
+  "subtype":"bot_message",
+  "team":"T9JS839FU",
+  "channel":"GARBVHM55",
+  "event_ts":"1527858684.000160",
+  "ts":"1527858684.000160"
+}
