@@ -1,0 +1,20 @@
+{
+  "text": "",
+  "username": "HackerOne",
+  "bot_id": "BAPKCAM6C",
+  "attachments": [
+    {
+      "fallback": "New HackerOne comment: #360786 - This is a test report",
+      "text": "This is a comment",
+      "pretext": "<https://hackerone.com/nodejs-ecosystem|Node.js third-party modules>: <https://hackerone.com/vdeturckheim|vdeturckheim> commented on <https://hackerone.com/reports/360786|This is a test report>.",
+      "id": 1,
+      "color": "ce3f4b"
+    }
+  ],
+  "type": "message",
+  "subtype": "bot_message",
+  "team": "T9JS839FU",
+  "channel": "GARBVHM55",
+  "event_ts": "1528039260.000053",
+  "ts": "1528039260.000053"
+}

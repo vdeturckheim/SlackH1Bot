@@ -6,7 +6,7 @@ const SlackClient = require('@slack/client');
 const rtm = new SlackClient.RTMClient(require('./secret').slack_token);
 rtm.start();
 
-let i = 0;
 rtm.on('message', (event) => {
 
+    console.log(JSON.stringify(event));
 });
