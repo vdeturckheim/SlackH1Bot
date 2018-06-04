@@ -18,7 +18,6 @@
   "homepage": "https://github.com/vdeturckheim/SlackH1Bot#readme",
   "dependencies": {
     "@slack/client": "^4.2.2",
-    "pino": "^4.17.3",
     "wreck": "^14.0.2"
   }
 }
