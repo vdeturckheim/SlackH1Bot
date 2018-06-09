@@ -1,4 +1,5 @@
 'use strict';
+const HTTP = require('http');
 const SlackClient = require('@slack/client');
 const IsEmail = require('isemail');
 
@@ -6,13 +7,8 @@ const HackerOne = require('./lib/hackerone');
 const Messages = require('./lib/messages');
 const Email = require('./lib/email');
 
-const rtm = new SlackClient.RTMClient(require('./secret').slack_token);
+const rtm = new SlackClient.RTMClient(require('./secret.js').slack_token);
 rtm.start();
-
-const handleError = function (err, event) {
-
-    return Promise.resolve();
-};
 
 const handleEvent = function (event) {
 
@@ -61,3 +57,9 @@ rtm.on('message', (event) => {
             console.error(err);
         });
 });
+
+HTTP.createServer((req, res) => {
+
+    res.end();
+})
+    .listen(process.env.PORT || 8080); // let's make heroku happy
