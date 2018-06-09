@@ -28,6 +28,7 @@ const handleEvent = function (event) {
         const text = event.attachments[0].text;
         if (text.startsWith('/notify_maintainer')) {
             // this is an instruction to the bot to notify the user whose email has been given and offer them to join
+            console.log('notifying maintainer');
             let email;
             try {
                 email = text.split(' ')
@@ -50,7 +51,6 @@ const handleEvent = function (event) {
 rtm.on('message', (event) => {
 
     handleEvent(event)
-        .then((...args) => console.log(args))
         .catch((err) => {
 
             console.error(event);
