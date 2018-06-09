@@ -25,6 +25,7 @@ const handleEvent = function (event) {
     }
     if (fallback.startsWith('New HackerOne comment')) {
         // we are in the case of a new comment
+        // TODO: you have to make sure the comment is private to prevent people from exploiting this and spam
         const text = event.attachments[0].text;
         if (text.startsWith('/notify_maintainer')) {
             // this is an instruction to the bot to notify the user whose email has been given and offer them to join
