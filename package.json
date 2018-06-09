@@ -18,6 +18,7 @@
   "homepage": "https://github.com/vdeturckheim/SlackH1Bot#readme",
   "dependencies": {
     "@slack/client": "^4.2.2",
+    "isemail": "^3.1.2",
     "wreck": "^14.0.2"
   }
 }

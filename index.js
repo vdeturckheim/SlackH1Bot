@@ -1,5 +1,6 @@
 'use strict';
 const SlackClient = require('@slack/client');
+const IsEmail = require('isemail');
 
 const HackerOne = require('./lib/hackerone');
 const Messages = require('./lib/messages');
@@ -27,7 +28,12 @@ const handleEvent = function(event) {
         const text = event.attachments[0].text;
         if (text.startsWith('/notify_maintainer')) {
             // this is an instruction to the bot to notify the user whose email has been given and offer them to join
-
+            const email = text.split(' ').find((x) => IsEmail(x));
+            if (!email) {
+                return; // TODO: err message
+            }
+            const msg = Messages.NotifyMaintainer();
+            return Email.send(email, msg.topic, msg.value);
         }
     }
 };
