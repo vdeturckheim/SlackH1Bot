@@ -19,6 +19,7 @@
   "dependencies": {
     "@slack/client": "^4.2.2",
     "isemail": "^3.1.2",
+    "node-mailjet": "^3.2.1",
     "wreck": "^14.0.2"
   }
 }
